@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.embrulho{
+    width: 580px;
+    margin: 0 auto;
+}
+
+       /* Começo estilo do cabeçalho */
+
+#cabecalho-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    justify-content: space-around;
+}
+
+body{
+    background-image: linear-gradient(45deg,rgba(0,0,0, 0.5), rgba(0, 0, 0, 0.5)),url(https://1.bp.blogspot.com/-hU6XIQ-G7BA/YTq2cJJVO7I/AAAAAAABGKA/sqzbLvfjdNEKHC1j1EovZVaZ2VzFQKkNACLcBGAsYHQ/s2560/Linda%2BPaisagem%2BNatural%2BFlorida%2BWallpaper.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-position: no-repeat;
+    height: 100vh;
+}
+
+
+#foto-perfil{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(221, 202, 226);
+    font-weight: 600;
+
+}
+ h1:hover{
+     color: rgb(253, 253, 253);
+ }
+
+       /* Fim do estilo cabeçalho /* 
+       /* Começo estilo da seção links */
+
+.link{
+    width: 100%;
+   
+}
+
+.link > a{
+    display: block;
+    background: rgb(202, 18, 89);
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    padding: 20px 0;
+    border-radius: 12px;
+    margin: 30px 0;
+}
+
+.link > a:hover{
+    background: rgb(224, 79, 157);
+    color: rgb(0, 0, 0);
+}
+
+/* Fim do estilo da seçao de links */
+
+#rodape-simbolos{
+    display: flex;
+    justify-content: center;
+
+}
+
+.simbolo{
+    font-size: 40px;
+    color: rgb(231, 87, 195);
+    margin: 0 14px;
+}
+
+.simbolo:hover{
+    color: rgb(255, 249, 249);
+}
